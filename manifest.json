@@ -1,0 +1,14 @@
+{
+  "name": "Store all tabs",
+  "version": "1.0",
+  "description": "An Extension to store all tabs in a file and open it also",
+  "manifest_version": 2,
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "bookmarks"
+  ],
+  "browser_action": {
+    "default_popup": "popup.html"
+   }
+}
